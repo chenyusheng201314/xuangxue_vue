@@ -4,7 +4,8 @@
     <DetailAddress></DetailAddress>
     <Buy :buy_info="buy_info" :lesson_info="lesson_info"></Buy>
     <IntroduceTab :lesson_tab="lesson_tab" :change_tab="change_tab"></IntroduceTab>
-    <Introduce :lesson_info="lesson_info" :teacher_info="teacher_info" :recommend_lesson="recommend_lesson"></Introduce>
+    <Introduce :lesson_info="lesson_info" :teacher_info="teacher_info" :recommend_lesson="recommend_lesson" v-show="lesson_tab == 1"></Introduce>
+    <Catalogue :lesson_mulu="lesson_mulu" v-show="lesson_tab == 2"></Catalogue>
   </div>
 </template>
 
@@ -13,9 +14,17 @@ import DetailAddress from './detail-address'
 import Buy from './buy'
 import IntroduceTab from './introduce-tab'
 import Introduce from './introduce'
+import Catalogue from './catalogue'
 
 export default {
   name: 'detail',
+  components: {
+    DetailAddress,
+    Buy,
+    IntroduceTab,
+    Introduce,
+    Catalogue
+  },
   data () {
     return {
       // 购买信息
@@ -192,6 +201,11 @@ export default {
             cover: '../../static/images/detail/introduce/cover.png',
             tit: '中国培训行业发展趋势解读',
             id: 2
+          },
+          {
+            cover: '../../static/images/detail/introduce/cover.png',
+            tit: '中国培训行业发展趋势解读',
+            id: 3
           }
         ],
         about_project: [
@@ -258,19 +272,79 @@ export default {
           cover: '../../static/images/detail/introduce/cover.png',
           tit: '中国培训行业发展趋势解读',
           id: 4
+        },
+        {
+          cover: '../../static/images/detail/introduce/cover.png',
+          tit: '中国培训行业发展趋势解读',
+          id: 5
         }
       ],
-
+      // 课程目录
+      lesson_mulu: [
+        {
+          tit: '章节1',
+          detail: [
+            {
+              id: 1,
+              solt: '第1课时',
+              name: '数据收集',
+              time: '09:25'
+            },
+            {
+              id: 2,
+              solt: '第2课时',
+              name: '数据收集',
+              time: '09:25'
+            },
+            {
+              id: 3,
+              solt: '第3课时',
+              name: '数据收集',
+              time: '09:25'
+            },
+            {
+              id: 4,
+              solt: '第4课时',
+              name: '数据收集',
+              time: '09:25'
+            }
+          ]
+        },
+        {
+          tit: '章节2',
+          detail: [
+            {
+              id: 1,
+              solt: '第1课时',
+              name: '数据收集',
+              time: '09:25'
+            },
+            {
+              id: 2,
+              solt: '第2课时',
+              name: '数据收集',
+              time: '09:25'
+            },
+            {
+              id: 3,
+              solt: '第3课时',
+              name: '数据收集',
+              time: '09:25'
+            },
+            {
+              id: 4,
+              solt: '第4课时',
+              name: '数据收集',
+              time: '09:25'
+            }
+          ]
+        }
+      ],
       lesson_tab: 1 // 课程介绍切换  1表示课程概述  2表示课程目录
 
     }
   },
-  components: {
-    DetailAddress,
-    Buy,
-    IntroduceTab,
-    Introduce
-  },
+
   methods: {
     change_tab (val) {
       this.lesson_tab = val

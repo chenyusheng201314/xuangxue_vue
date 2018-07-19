@@ -1,5 +1,5 @@
 <template>
-  <li class="detail-class">
+  <li class="detail-class" @click="viea_skip(lesson.id)">
     <a :href="lesson.src">
       <img :src="lesson.cover" alt="" width="230" height="150">
       <p class="class-title">{{lesson.tit}}</p>
@@ -29,7 +29,12 @@
 <script>
 export default {
   name: 'DetailClass',
-  props: ['lesson']
+  props: ['lesson'],
+  methods: {
+    viea_skip (lesson_id) {
+      this.$router.push({path: '/class-detail', query: {id: lesson_id}})
+    }
+  }
 }
 </script>
 
