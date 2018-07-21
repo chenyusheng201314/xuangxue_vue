@@ -25,8 +25,13 @@
         </span>
       </p>
       <p class="article-sm">{{article_info.introduce}}</p>
-      <p class="article-con">一次偶遇，成为一个让人津津乐道的话题，同时也成就一个经典的案例。 </p>
-      <p class="article-con">周末，素来无事，接到多年不见同学的电话。 同学老婆开了一个童</p>
+      <p class="article-con" v-for="item in article_info.detail_con">{{item}} </p>
+    </div>
+    <div class="article-right">
+      <h2>相关文章</h2>
+      <ul class="tuijian-list">
+        <li v-for="item in tuijian_article">{{item.name}}</li>
+      </ul>
     </div>
   </div>
 </template>
@@ -34,7 +39,7 @@
 <script>
 export default {
   name: 'Article',
-  props: ['article_info'],
+  props: ['article_info', 'tuijian_article'],
   data () {
     return {
       // 分享图标
@@ -197,8 +202,37 @@ export default {
     margin-top: 45px;
     margin-bottom: 45px;
   }
-  .article-left  .article-con{
+  .article-left .article-con{
     font-size: 15px;
     color: #666;
+  }
+  .blog-detail-article .article-right{
+    float: right;
+    height: auto;
+    width: 330px;
+    padding: 45px;
+    border: 1px solid #dcdcdc;
+  }
+  .blog-detail-article .article-right h2{
+    color: #ff6900;
+    font-size: 20px;
+  }
+  .blog-detail-article .article-right .tuijian-list{
+    margin-top: 10px;
+    padding: 0;
+  }
+  .blog-detail-article .article-right .tuijian-list li{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #333;
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    list-style-type: decimal;
+    cursor: pointer;
+  }
+  .blog-detail-article .article-right .tuijian-list li:hover{
+    color: #ff6900;
   }
 </style>
