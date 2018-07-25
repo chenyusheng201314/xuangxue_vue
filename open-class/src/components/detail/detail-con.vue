@@ -204,6 +204,7 @@ export default {
   .open-detial-con .open-con-right li .stu-list .stu-list-tit .tit-right p{
     font-size: 15px;
     color: #999;
+    margin-top: 5px;
   }
   .open-detial-con .open-con-right li .stu-list .stu-fk{
     width: 100%;
