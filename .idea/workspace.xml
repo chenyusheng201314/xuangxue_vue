@@ -5,18 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/login/src/components/login.vue" line="21" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="163afa67-2c5d-4f5b-83f2-2d6dcae047b3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/case/src/components/case-list/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/src/components/case-list/list-address.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/src/components/case-list/list.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/case/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/case/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/case/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/case/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/case/src/router/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="163afa67-2c5d-4f5b-83f2-2d6dcae047b3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -28,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login/src/App.vue">
@@ -48,6 +38,62 @@
         </entry>
       </file>
     </leaf>
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/login/src/App.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="275">
+                  <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login.vue" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/login/src/components/login.vue">
+              <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+                <state relative-caret-position="401">
+                  <caret line="67" column="50" lean-forward="true" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+                  <folding>
+                    <element signature="e#170#210#0" expanded="true" />
+                  </folding>
+=======
+                <state relative-caret-position="171">
+                  <caret line="133" column="37" lean-forward="true" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="37" />
+>>>>>>> origin/master
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="register.vue" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/login/src/components/register.vue">
+              <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+                <state relative-caret-position="475">
+                  <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+=======
+                <state relative-caret-position="550">
+                  <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                    <element signature="e#2741#2755#0" />
+                  </folding>
+>>>>>>> origin/master
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+>>>>>>> f01be445a97a0a02f215ddf86bdf678bc902bef7
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -242,14 +288,29 @@
       <workItem from="1532049871525" duration="27913000" />
       <workItem from="1532178364947" duration="3450000" />
       <workItem from="1532342968101" duration="2583000" />
+<<<<<<< HEAD
+      <workItem from="1532349865991" duration="7549000" />
+=======
       <workItem from="1532349865991" duration="7290000" />
       <workItem from="1532393958056" duration="27325000" />
+<<<<<<< HEAD
       <workItem from="1532480661431" duration="7497000" />
+=======
+>>>>>>> origin/master
+>>>>>>> f01be445a97a0a02f215ddf86bdf678bc902bef7
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="76058000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="41495000" />
+=======
+    <option name="totallyTimeSpent" value="68561000" />
+>>>>>>> origin/master
+>>>>>>> f01be445a97a0a02f215ddf86bdf678bc902bef7
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -562,6 +623,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/case/src/components/case-list/list.vue">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="475">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/src/components/case-list/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="67" column="50" lean-forward="true" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+          <folding>
+            <element signature="e#170#210#0" expanded="true" />
+=======
         <state relative-caret-position="249">
           <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
         </state>
@@ -659,7 +733,12 @@
           <caret line="143" column="1" lean-forward="true" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+<<<<<<< HEAD
             <element signature="e#3406#4305#0" />
+=======
+            <element signature="e#2741#2755#0" />
+>>>>>>> origin/master
+>>>>>>> f01be445a97a0a02f215ddf86bdf678bc902bef7
           </folding>
         </state>
       </provider>
