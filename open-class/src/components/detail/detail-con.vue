@@ -69,6 +69,7 @@ export default {
     height: auto;
     margin-top: 20px;
     overflow: hidden;
+    margin-bottom: 60px;
   }
 
   .open-detial-con .open-con-left {
