@@ -131,7 +131,29 @@ export default {
     //  登录
     user_login () {
       var that = this
+      // var arr = [
+      //   function () {
+      //     if (that.login_number === '') {
+      //       that.error_show = true
+      //       that.error_info = '账户不能为空'
+      //     } else {
+      //       that.error_show = false
+      //       that.error_info = ''
+      //     }
+      //   },
+      //   function () {
+      //     if (that.login_pwd === '') {
+      //       that.error_show = true
+      //       that.error_info = '密码不能为空'
+      //     } else {
+      //       that.error_show = false
+      //       that.error_info = ''
+      //     }
+      //   }
+      // ]
+
       var Isphone = /^1[34578]\d{9}$/
+
       if (that.tab_type === 1) {
         if (that.login_number === '') {
           that.error_show = true
@@ -232,6 +254,7 @@ export default {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-top: 15px;
   }
 
   .login-btn {

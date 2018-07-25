@@ -1,7 +1,7 @@
 <template>
   <div class="login-cover">
     <div class="login-cover-con">
-       <span class="cover-close">
+       <span class="cover-close" @click="login_close">
         <img src="../../static/images/colse-cover.png" alt="" width="16">
       </span>
       <Login></Login>
@@ -17,6 +17,11 @@ export default {
   name: 'index',
   components: {
     Login
+  },
+  methods: {
+    login_close () {
+      console.log('登录弹窗关闭，应该跳转路由')
+    }
   }
 }
 </script>

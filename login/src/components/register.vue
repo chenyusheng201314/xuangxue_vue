@@ -1,7 +1,7 @@
 <template>
   <div class="register">
     <div class="register-con">
-    <span class="cover-close">
+    <span class="cover-close" @click="register_close">
         <img src="../../static/images/colse-cover.png" alt="" width="16">
      </span>
       <div class="register-tit">
@@ -53,7 +53,7 @@
           <a href="javascript:;" class="f12 color-999">《享学隐私政策》</a>
         </div>
         <div class="login-type-right">
-          <span class="go-zhuce">去登录 &gt;</span>
+          <span class="go-zhuce" @click="to_login">去登录 &gt;</span>
         </div>
       </div>
     </div>
@@ -102,6 +102,7 @@ export default {
     agree_change () {
       this.agree = !this.agree
     },
+    // 注册条件判断
     user_register () {
       var that = this,
         Isphone = /^1[34578]\d{9}$/
@@ -111,7 +112,33 @@ export default {
       } else if (!Isphone.test(that.phone)) {
         that.error_info = '手机号格式不正确'
         that.error_type = true
+      } else if (that.yzm === '') {
+        that.error_info = '验证码不能为空'
+        that.error_type = true
+      } else if (that.duanxin === '') {
+        that.error_info = '短信验证码不能为空'
+        that.error_type = true
+      } else if (that.pwd === '') {
+        that.error_info = '密码不能为空'
+        that.error_type = true
+      } else if (that.pwd_again !== that.pwd) {
+        that.error_info = '两次密码不一致'
+        that.error_type = true
+      } else if (!that.agree) {
+        that.error_info = '是否同意政策'
+        that.error_type = true
+      } else {
+        that.error_type = false
+        console.log('发生请求，判断手机号是否存在！')
       }
+    },
+    //  去登陆
+    to_login () {
+      this.$router.push({path: '/login'})
+    },
+    //  关闭弹窗
+    register_close () {
+      console.log('弹窗关闭，应该跳转路由')
     }
   }
 }
