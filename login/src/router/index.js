@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Login from '@/components/index'
 import Forget from '@/components/forget'
 import Register from '@/components/register'
+import Classify from '@/components/classify'
 
 Vue.use(Router)
 
@@ -10,8 +11,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Login',
-      component: Login
+      name: 'Classify',
+      component: Classify
+    },
+    {
+      path: '/classify',
+      name: 'Classify',
+      component: Classify
     },
     {
       path: '/login',

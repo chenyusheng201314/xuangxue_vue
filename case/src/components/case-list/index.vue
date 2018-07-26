@@ -21,59 +21,167 @@ export default {
         {
           title: '精选案例',
           list: [
-            '../../../static/images/list/li1.png',
-            '../../../static/images/list/li1.png',
-            '../../../static/images/list/li1.png',
-            '../../../static/images/list/li1.png',
-            '../../../static/images/list/li1.png',
-            '../../../static/images/list/li1.png'
+            {
+              cover: '../../../static/images/list/li1.png',
+              id: 1
+            },
+            {
+              cover: '../../../static/images/list/li1.png',
+              id: 2
+            },
+            {
+              cover: '../../../static/images/list/li1.png',
+              id: 3
+            },
+            {
+              cover: '../../../static/images/list/li1.png',
+              id: 4
+            },
+            {
+              cover: '../../../static/images/list/li1.png',
+              id: 5
+            },
+            {
+              cover: '../../../static/images/list/li1.png',
+              id: 6
+            }
           ]
         },
         {
           title: '餐饮/食品/快消品',
           list: [
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 1
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 2
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 3
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 4
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 5
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 6
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 7
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 8
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 9
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 10
+            }
           ]
         },
         {
           title: '电工/电器/通讯',
           list: [
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 1
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 2
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 3
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 4
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 5
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 6
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 7
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 8
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 9
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 10
+            }
           ]
         },
         {
           title: '电商/零售',
           list: [
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
-            '../../../static/images/list/li2.png',
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 1
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 2
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 3
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 4
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 5
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 6
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 7
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 8
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 9
+            },
+            {
+              cover: '../../../static/images/list/li2.png',
+              id: 10
+            }
           ]
-        },
+        }
       ]
     }
   }

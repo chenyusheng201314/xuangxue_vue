@@ -3,7 +3,7 @@
     <li v-for="item in case_list">
       <h2>● {{item.title}}</h2>
       <div class="img-all">
-        <img v-for="src in item.list" :src="src" alt="">
+        <img v-for="src in item.list" :src="src.cover" alt="" @click="go_detail(src.id)">
       </div>
     </li>
   </ul>
@@ -12,7 +12,12 @@
 <script>
 export default {
   name: 'list',
-  props: ['case_list']
+  props: ['case_list'],
+  methods: {
+    go_detail (id) {
+      this.$router.push({path: '/case-detail', query: {id}})
+    }
+  }
 }
 </script>
 
@@ -32,6 +37,7 @@ export default {
 
   .case-list li {
     margin-top: 45px;
+
   }
 
   .case-list li:first-child {
@@ -49,5 +55,6 @@ export default {
   .case-list li .img-all img{
     margin-right: 8px;
     margin-top: 8px;
+    cursor: pointer;
   }
 </style>

@@ -6,7 +6,6 @@
       </span>
       <Login></Login>
     </div>
-
   </div>
 </template>
 
@@ -22,6 +21,9 @@ export default {
     login_close () {
       console.log('登录弹窗关闭，应该跳转路由')
     }
+  },
+  mounted () {
+    console.log(this.$route.params.type)
   }
 }
 </script>

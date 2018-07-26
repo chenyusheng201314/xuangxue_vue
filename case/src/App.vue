@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <h2>这里放导航</h2>
-    <List></List>
+    <router-view></router-view>
     <h2>这里放底部</h2>
   </div>
 </template>
 
 <script>
 import List from './components/case-list/index'
+
 export default {
   name: 'App',
   components: {
@@ -24,7 +25,8 @@ export default {
     overflow: hidden;
     margin: 0 auto;
   }
-  ul,li,ol{
+
+  ul, li, ol {
     list-style-type: none;
   }
 </style>
